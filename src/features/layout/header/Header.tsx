@@ -38,7 +38,7 @@ export async function Header({ locale }: HeaderProps) {
 
   return (
     <header
-      className="sticky top-0 z-30 w-full bg-(--primary) shadow-md text-white"
+      className="z-30 w-full bg-(--primary) shadow-md text-white"
       role="banner"
     >
       {/* 1. Scrolling announcement strip */}
